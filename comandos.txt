@@ -1,0 +1,17 @@
+#Backend
+
+mkdir backend
+cd backend
+npm -y init
+npm install -y express
+npm install -y mongoose
+mkdir database
+mkdir routes
+touch index.js
+touch ./database/db.js
+touch ./database/users.js
+touch ./routes/users.js
+
+#Frontend
+
+npx create-react-app frontend ##Crea la carpeta frontend e instala dependencias del frontend
